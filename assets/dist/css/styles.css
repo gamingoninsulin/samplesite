@@ -1,0 +1,192 @@
+.centerTable > div {
+    height:100px;
+    box-sizing:border-box;
+    -moz-box-sizing:border-box;
+}
+#left {
+    float:left;
+    width: 50%;
+    border-right:1px solid black;
+}
+#right {
+    float:right;
+    width: 50%;
+}
+
+#bottom {
+    border-top:1px solid black;
+    clear: both;
+}
+
+.centerTable {
+	border: solid 1px;
+	margin-top: 3em;
+	margin-bottom: 3em;
+	margin-left: auto;
+  margin-right: auto;
+	max-width: 70%;
+}
+
+#scrollable {
+	overflow: scroll; 
+	height: fit-content;
+}
+
+#container {
+	width:1000px; 
+	margin:0 auto;
+	margin-top: 10em;
+}
+
+#container-top {
+	width:100%; 
+	margin-left: 35%;
+	margin-right: 35%;
+}
+
+#recipe {
+	margin-left: 4em;
+	margin-right: 4em;
+}
+
+.blocktxt {
+	border: solid 1px;
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+#dont-touch h1 {
+	text-align: center;
+	margin-top: 3.5em;
+	margin-left: 0;
+	margin-bottom: 30px;
+	color: black;
+}
+
+h1 {
+	text-align: center;
+	margin-left: 0;
+	margin-bottom: 30px;
+	color: black;
+}
+h3 {
+	text-align: center;
+	margin-left: 0;
+	margin-bottom: 30px;
+	color: black;
+}
+h5 {
+	text-align: left;
+	margin-left: 5em;
+	margin-bottom: 30px;
+	color: black;	
+}
+
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+#dont-touch p{
+	color: black;
+	max-width: 80%;
+	margin-left: 10%;
+}
+
+p{
+	color: black;
+	max-width: 80%;
+	margin-left: 10%;
+}
+
+
+#dont-touch, #radio-player {
+	width: 300px;
+	margin: 0 auto;
+	text-align: center;
+	border: 3px solid #ccc;
+	padding: 20px;
+	border-radius: 10px;
+	color: black;
+}
+#radio-player {
+	background-color: skyblue;
+}
+
+#dont-touch, #radio-stations {
+	margin-bottom: 20px;
+}
+
+#dont-touch, #radio-stations select {
+	padding: 5px;
+	font-size: 16px;
+	border: 2px solid #ccc;
+	border-radius: 5px;
+}
+
+#dont-touch, #radio-stations label {
+	font-size: 18px;
+	font-weight: bold;
+	margin-right: 10px;
+}
+
+#dont-touch, #radio-players {
+	margin-bottom: 20px;
+}
+
+#dont-touch, #radio-players audio {
+	width: 100%;
+	border: none;
+}
+
+#dont-touch, #next-station {
+	color: white;
+	padding: 10px;
+	border: none;
+	border-radius: 5px;
+	font-size: 16px;
+	cursor: pointer;
+}
+#next-station {
+	background-color: #212529;
+}
+
+#next-station:hover {
+	background-color: #3a5066;
+}
+
+@media print {
+	/* hide stuff */
+	.hide
+}
+
+.btn-print {
+	width: 5em;
+	height: 5em;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	float: right;
+	background: transparent;
+	outline: none;
+	border: solid 1px;
+	cursor: pointer;
+}
+
+.btn-print:hover {
+	background-color: #eeeeee;
+}
+
+#outer {
+	width: 100%;
+	text-align: center;
+}
+
+.inner {
+	display: inline-block;
+}
