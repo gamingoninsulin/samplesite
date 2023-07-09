@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Coder's Hub | Radio Player</title>
-		<link rel="stylesheet" href="assets/dist/css/styles.css">
+		<title class="hide">Coder's Hub | Appeltaart</title>
+		<link rel="stylesheet" href="../../assets/dist/css/styles.css">
 		<link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/navbar-fixed/">
 		
 		<!-- Bootstrap core CSS -->
-		<link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
+		<link href="../../assets/dist/css/bootstrap.min.css" rel="stylesheet">
 		<style>
 		.bd-placeholder-img {
 		font-size: 1.125rem;
@@ -23,13 +23,14 @@
 		</style>
 		
 		<!-- Custom styles for this template -->
-		<link href="navbar-top-fixed.css" rel="stylesheet">
+		<!--<link href="../../navbar-top-fixed.css" rel="stylesheet">-->
 		<!-- google material image library -->
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
 	</head>
 	<body id="scrollable">
 		<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
 			<symbol id="bootstrap" viewBox="0 0 118 94">
+			<title>Bootstrap</title>
 			<path fill-rule="evenodd" clip-rule="evenodd" d="M24.509 0c-6.733 0-11.715 5.893-11.492 12.284.214 6.14-.064 14.092-2.066 20.577C8.943 39.365 5.547 43.485 0 44.014v5.972c5.547.529 8.943 4.649 10.951 11.153 2.002 6.485 2.28 14.437 2.066 20.577C12.794 88.106 17.776 94 24.51 94H93.5c6.733 0 11.714-5.893 11.491-12.284-.214-6.14.064-14.092 2.066-20.577 2.009-6.504 5.396-10.624 10.943-11.153v-5.972c-5.547-.529-8.934-4.649-10.943-11.153-2.002-6.484-2.28-14.437-2.066-20.577C105.214 5.894 100.233 0 93.5 0H24.508zM80 57.863C80 66.663 73.436 72 62.543 72H44a2 2 0 01-2-2V24a2 2 0 012-2h18.437c9.083 0 15.044 4.92 15.044 12.474 0 5.302-4.01 10.049-9.119 10.88v.277C75.317 46.394 80 51.21 80 57.863zM60.521 28.34H49.948v14.934h8.905c6.884 0 10.68-2.772 10.68-7.727 0-4.643-3.264-7.207-9.012-7.207zM49.948 49.2v16.458H60.91c7.167 0 10.964-2.876 10.964-8.281 0-5.406-3.903-8.178-11.425-8.178H49.948z"></path>
 			</symbol>
 			<symbol id="home" viewBox="0 0 16 16">
@@ -85,12 +86,12 @@
 			<path fill-rule="evenodd" d="M4 4a4 4 0 1 1 4.5 3.969V13.5a.5.5 0 0 1-1 0V7.97A4 4 0 0 1 4 3.999zm2.493 8.574a.5.5 0 0 1-.411.575c-.712.118-1.28.295-1.655.493a1.319 1.319 0 0 0-.37.265.301.301 0 0 0-.057.09V14l.002.008a.147.147 0 0 0 .016.033.617.617 0 0 0 .145.15c.165.13.435.27.813.395.751.25 1.82.414 3.024.414s2.273-.163 3.024-.414c.378-.126.648-.265.813-.395a.619.619 0 0 0 .146-.15.148.148 0 0 0 .015-.033L12 14v-.004a.301.301 0 0 0-.057-.09 1.318 1.318 0 0 0-.37-.264c-.376-.198-.943-.375-1.655-.493a.5.5 0 1 1 .164-.986c.77.127 1.452.328 1.957.594C12.5 13 13 13.4 13 14c0 .426-.26.752-.544.977-.29.228-.68.413-1.116.558-.878.293-2.059.465-3.34.465-1.281 0-2.462-.172-3.34-.465-.436-.145-.826-.33-1.116-.558C3.26 14.752 3 14.426 3 14c0-.599.5-1 .961-1.243.505-.266 1.187-.467 1.957-.594a.5.5 0 0 1 .575.411z"/>
 			</symbol>
 		</svg>
-	<header>
+	<header class="hide">
 		<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
 			<div class="container-fluid">
 				<a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none">
 					<svg class="bi me-2" width="40" fill="white" height="32" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><path fill="#255255255" d="M9.81175,1.23848 C10.3070964,1.37121929 10.6154651,1.85349541 10.5425767,2.3488407 L10.5189,2.46323 L7.41303,14.0543 C7.27009,14.5878 6.72175,14.9044 6.18828,14.7614 C5.69292429,14.6287071 5.38457224,14.1464602 5.45749504,13.6510948 L5.48118,13.5367 L8.58701,1.94559 C8.72995,1.41213 9.27829,1.09554 9.81175,1.23848 Z M4.70711,4.29288 C5.09763,4.68341 5.09763,5.31657 4.70711,5.7071 L2.41421,7.99999 L4.70711,10.2929 C5.09763,10.6834 5.09763,11.3166 4.70711,11.7071 C4.31658,12.0976 3.68342,12.0976 3.29289,11.7071 L0.292893,8.7071 C-0.0976311,8.31657 -0.0976311,7.68341 0.292893,7.29288 L3.29289,4.29288 C3.68342,3.90236 4.31658,3.90236 4.70711,4.29288 Z M11.2929,4.29288 C11.6533615,3.9324 12.2206207,3.90467077 12.6128973,4.20969231 L12.7071,4.29288 L15.7071,7.29288 C16.0675615,7.65336923 16.0952893,8.22059645 15.7902834,8.61289152 L15.7071,8.7071 L12.7071,11.7071 C12.3166,12.0976 11.6834,12.0976 11.2929,11.7071 C10.9324385,11.3466385 10.9047107,10.7793793 11.2097166,10.3871027 L11.2929,10.2929 L13.5858,7.99999 L11.2929,5.7071 C10.9024,5.31657 10.9024,4.68341 11.2929,4.29288 Z"/></svg>
-					<span class="fs-4">Coder's Hub</span>
+					<span class="fs-4 hide">Coder's Hub</span>
 				</a>
 				<div class="d-flex">
 					<!-- Element on the left -->
@@ -107,22 +108,22 @@
 				<div class="collapse navbar-collapse" id="navbarCollapse">
 					<ul class="navbar-nav me-auto mb-2 mb-md-0">
 						<li class="nav-item">
-							<a class="nav-link "  href="index.html">
+							<a class="nav-link "  href="../../index.html">
 								Home
 							</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link active" aria-current="page" href="radio.html">
+							<a class="nav-link" href="../../radio.html">
 								Radio Player
 							</a>
 						</li>
 						<li class="nav-item">
-								<a class="nav-link" href="snippets.html">
+								<a class="nav-link" href="../../snippets.html">
 									Snippets
 								</a>
 							</li>
 						<li class="nav-item">
-							<a class="nav-link" href="recipes.html">
+							<a class="nav-link active" aria-current="page" href="../../recipes.html">
 								Recepten
 							</a>
 						</li>
@@ -133,83 +134,33 @@
 		</header>
 		<main>
 			<div id="container">
-				<div id="dont-touch">
-					<h1>Radio Speler</h1>
-					<div id="radio-player">
-						<div id="radio-stations">
-							<label for="station-select">Kies een radio station:</label>
-							<select id="station-select">
-								<!-- Qmusic -->
-								<option value="https://icecast-qmusicnl-cdp.triple-it.nl/Qmusic_nl_live.mp3">Q-Music Nederland</option><!-- Qmusic Regular -->
-								<option value="https://icecast-qmusicnl-cdp.triple-it.nl/Qmusic_nl_nederlandstalig.mp3"> Q-Music Nederlandstalig</option><!-- Qmusic nedelandstalig -->
-								<option value="https://icecast-qmusicnl-cdp.triple-it.nl/Qmusic_nl_fouteuur.mp3">Q-Music Foute Uur</option><!-- Qmusic foute uur -->
-								<option value="https://icecast-qmusicnl-cdp.triple-it.nl/Qmusic_nl_nonstop.mp3">Q-Music Non-Stop</option><!-- Qmusic non stop -->
-								<option value="https://icecast-qmusicnl-cdp.triple-it.nl/Qmusic_nl_thema.mp3">Q-Music Summer</option><!-- Qmusic Summer  -->
-								<option value="https://icecast-qmusicnl-cdp.triple-it.nl/Qmusic_nl_top40.mp3">Q-Music Top 40</option><!-- Qmusic top 40 -->
-								
-								<!-- 100%NL -->
-								<option value="https://stream.100p.nl/100pctnl.mp3">100% NL</option><!-- 100% NL -->
-								<option value="https://stream.100p.nl/web04_mp3">NL nederpop</option><!-- NL nederpop -->
-								<option value="https://stream.100p.nl/web02_mp3">NL Non-Stop</option><!-- NL Non-Stop -->
-								<option value="https://stream.100p.nl/web06_mp3">Puur</option><!-- Puur -->
-								<option value="https://stream.100p.nl/web05_mp3">Songfestival</option><!-- Songfestival -->
-								<!-- Radio 538 -->
-								<option value="https://playerservices.streamtheworld.com/api/livestream-redirect/RADIO538.mp3">Radio 358</option><!-- Radio 358 -->
-								<option value="https://playerservices.streamtheworld.com/api/livestream-redirect/RADIO538.mp3">538 Classics</option><!-- 538 Classics -->
-								<option value="https://playerservices.streamtheworld.com/api/livestream-redirect/TLPSTR01.mp3">538 Dance Dept</option><!-- 538 Dance Dept. -->
-								<option value="https://playerservices.streamtheworld.com/api/livestream-redirect/TLPSTR09.mp3">538 Hitzone</option><!-- 538 Hitzone -->
-								<option value="https://playerservices.streamtheworld.com/api/livestream-redirect/TLPSTR16.mp3">538 Party</option><!-- 538 Party -->
-								<option value="https://playerservices.streamtheworld.com/api/livestream-redirect/TLPSTR21.mp3">538 Die Verrückte</option><!-- 538 Die Verrückte -->
-								<option value="https://playerservices.streamtheworld.com/api/livestream-redirect/TLPSTR06.mp3">538 Zomer</option><!-- 538 Zomer -->
-								<!-- Radio 10 -->
-								<option value="https://playerservices.streamtheworld.com/api/livestream-redirect/RADIO10.mp3">radio 10</option><!-- radio 10 -->
-								<option value="https://playerservices.streamtheworld.com/api/livestream-redirect/TLPSTR18.mp3">Radio 10 60' & 70' Hit's</option><!-- Radio 10 60' & 70' Hit's -->
-								<option value="https://playerservices.streamtheworld.com/api/livestream-redirect/TLPSTR20.mp3">Radio 10 80's Hits</option><!-- Radio 10 80's Hits -->
-								<option value="https://playerservices.streamtheworld.com/api/livestream-redirect/TLPSTR22.mp3">Radio 10 90's Hits</option><!-- Radio 10 90's Hits -->
-								<option value="https://www.mp3streams.nl/zender/radio-10-lovesongs/stream/75-mp3-128">Radio 10 Love Songs</option><!-- Radio 10 Love Songs -->
-								<option value="https://playerservices.streamtheworld.com/api/livestream-redirect/TLPSTR23.mp3">Radio 10 Disco Classics</option><!-- Radio 10 Disco Classics -->
-								<option value="https://playerservices.streamtheworld.com/api/livestream-redirect/TLPSTR15.mp3">Radio 10 Non-Stop</option><!-- Radio 10 Non-Stop -->
-								<option value="https://playerservices.streamtheworld.com/api/livestream-redirect/TLPSTR24.mp3">Radio 10 Top 4000</option><!-- Radio 10 Top 4000 -->
-								<!-- Sky Radio -->
-								<option value="https://www.mp3streams.nl/zender/skyradio/stream/8-mp3-128">Sky Radio</option><!-- Sky Radio -->
-								<option value="https://playerservices.streamtheworld.com/api/livestream-redirect/SKYRADIO.mp3">Sky Radio Non-Stop</option><!-- Sky Radio Non-Stop -->
-								<option value="https://playerservices.streamtheworld.com/api/livestream-redirect/SRGSTR01.mp3">Sky Hits</option><!-- Sky Hits -->
-								<option value="https://playerservices.streamtheworld.com/api/livestream-redirect/SRGSTR28.mp3">Sky Summer Hits</option><!-- Sky Summer Hits -->
-								<option value="https://playerservices.streamtheworld.com/api/livestream-redirect/SRGSTR03.mp3">Sky LoveSongs</option><!-- Sky LoveSongs -->
-								<option value="https://playerservices.streamtheworld.com/api/livestream-redirect/SRGSTR24.mp3">Sky Non-Stop@Work</option><!-- Sky Non-Stop@Work -->
-								<option value="https://playerservices.streamtheworld.com/api/livestream-redirect/SRGSTR15.mp3">Sky Smooth Hits</option><!-- Sky Smooth Hits -->
-								<option value="https://playerservices.streamtheworld.com/api/livestream-redirect/SRGSTR04.mp3">Sky 80's Hits</option><!-- Sky 80's Hits -->
-								<option value="https://playerservices.streamtheworld.com/api/livestream-redirect/SRGSTR05.mp3">Sky 90's Hits</option><!-- Sky 90's Hits -->
-								<option value="https://playerservices.streamtheworld.com/api/livestream-redirect/SRGSTR07.mp3">Sky Nice & Easy</option><!-- Sky Nice & Easy -->
-								<option value="https://playerservices.streamtheworld.com/api/livestream-redirect/SRGSTR08.mp3">Sky Christmas</option><!-- Sky Christmas -->
-								<!-- Slam! FM -->
-								<option value="https://stream.slam.nl/slam_mp3">Slam! FM</option><!-- Slam! Live -->
-								<option value="https://stream.slam.nl/web14_mp3">Slam! 40</option><!-- Slam! 40 -->
-								<option value="https://stream.slam.nl/web15_mp3">Slam! Dance Classics</option><!-- Slam! Dance Classics -->
-								<option value="https://stream.slam.nl/web11_mp3">Slam! Hardstyle</option><!-- Slam! Hardstyle -->
-								<option value="https://stream.slam.nl/slam_mp3">Slam! Housuh In De Pauzuh</option><!-- Slam! Housuh In De Pauzuh -->
-								<option value="https://stream.slam.nl/web13_mp3">Slam! MixMarathon</option><!-- Slam! MixMarathon -->
-								<option value="https://stream.slam.nl/web10_mp3">Slam! Non-Stop</option><!-- Slam! Non-Stop -->
-								<option value="https://stream.slam.nl/web08_mp3">Slam! Summer</option><!-- Slam! Summer -->
-								<option value="https://stream.slam.nl/web12_mp3">Slam! The Boom Room</option><!-- Slam! The Boom Room -->
-								<option value="https://stream.slam.nl/web09_mp3">Slam! Juize</option><!-- Slam! Juize -->
-							</select>
-						</div>
-						<div id="radio-players">
-							<audio id="radio-player-audio" controls autoplay>
-								<source id="radio-player-source" src="https://streaming.radionomy.com/JamendoLounge">
-							</audio>
-						</div>
-						<!--
-						<button  class="inner" id="prev-station"><span>prev<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#000" viewBox="0 0 100 100" xml:space="preserve"><path d="M87.06 26.291c-.483 0-.918.2-1.23.521L57.41 43.22V28.009a1.718 1.718 0 0 0-2.948-1.197L21.144 46.049V22.667h-.013c.002-.039.012-.075.012-.114a2.537 2.537 0 0 0-2.532-2.536h-4.852v.024a2.537 2.537 0 0 0-2.537 2.537c0 .045.011.086.013.131v54.967h.024a2.529 2.529 0 0 0 2.513 2.296c.03 0 .058-.008.087-.009h4.569c.071.006.14.021.213.021 1.4 0 2.537-1.136 2.537-2.537 0-.117-.019-.23-.035-.343V53.962l33.341 19.25a1.715 1.715 0 0 0 2.92-1.172h.005V56.791l28.443 16.422a1.715 1.715 0 0 0 2.92-1.172h.005V28.009a1.717 1.717 0 0 0-1.717-1.718z"/></svg></span></button>
-						-->
-						<button class="inner" id="next-station"><span><svg height="32" width="32"  fill="#fff" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" xml:space="preserve"><path d="m0 381.4 237.7-118.9L0 143.6v237.8zm237.7-118.9v118.9l237.7-118.9-237.7-118.9v118.9zm237.7-118.9v237.8H512V143.6h-36.6z"/></svg></span></button>
+				<h1 class="hide">HTML Snippets</h1>
+				
+				<div class="blocktxt">
+					<img class="center" src="../../assets/img/snippet-html.jpg" width="80%" height="50%">
+					<div id="recipe">
+						<h4>What is HTML?</h4>
+						<p>
+                            <strong style="font-size: 3em">H</strong>yperText Markup Language (afgekort HTML). <br>
+                            Is een op SGML gebaseerde opmaaktaal voor de specificatie van documenten, voornamelijk bedoeld voor het wereldwijde web.<br>
+                            Het is de standaard opmaaktaal voor webpagina's. <br>
+                            Documenten in HTML kunnen geopend en gelezen worden door een webbrowser om vervolgens als webpagina weergegeven te worden.<br>
+                            HTML-documenten bevatten op de eerste plaats semantische structuur en tekstuele inhoud van een webpagina <br>
+                            De opmaak en visuele weergave kunnen er ook in worden beschreven, maar daar wordt tegenwoordig gewoonlijk <a href="snippets/css/#">CSS</a> voor gebruikt.
+                        </p>
+                        <h6>source: <a href="https://nl.wikipedia.org/wiki/HyperText_Markup_Language" target="_blank">Wikipedia</a></h6>
+						<hr>
+						<h4>Snipets</h4>
+						
 					</div>
 				</div>
-				
+				<button class="btn-print" type="button">
+				<svg width="32" height="32" fill="none" viewBox="0 0 15 15" xmlns="http://www.w3.org/2000/svg"><path d="M3.5 12.5h-2a1 1 0 0 1-1-1v-4a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v4a1 1 0 0 1-1 1h-2m-8-6v-5a1 1 0 0 1 1-1h6a1 1 0 0 1 1 1v5m-8 4h8v4h-8v-4Z" stroke="#000"/></svg>
+				</button>
 			</div>
-    </main>
-	<script src="assets/dist/js/bootstrap.bundle.min.js"></script>
-	<script src="assets/dist/js/radio.js"></script>
-</body>
+			
+		</main>
+		<script src="../../assets/dist/js/print.js"></script>
+		<script src="../../assets/dist/js/bootstrap.bundle.min.js"></script>
+	</body>
 </html>

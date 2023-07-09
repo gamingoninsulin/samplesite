@@ -190,3 +190,11 @@ p{
 .inner {
 	display: inline-block;
 }
+h6 {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.placementcenter {
+    margin-left: 30%;
+    margin-right: 30%;
+}
